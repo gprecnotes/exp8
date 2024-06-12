@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id clear
+id groupradio
+id radio_id1
+id radio_id2
+id radio_id3
+id radio_id4
+id submit
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Exp8
+style Theme.Exp8
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Select your Subject ?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/groupradio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp">
+
+        <RadioButton
+            android:id="@+id/radio_id1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="DBMS"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_id2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="C/C++ Programming"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_id3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Structures"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_id4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Algorithms"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/groupradio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
